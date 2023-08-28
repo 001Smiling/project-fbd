@@ -30,6 +30,7 @@
     align-items: center;
     justify-content: space-around;
     color: white;
+    font-family: $font3;
 }
 .footer__wrapper{
     width: 100%;
@@ -115,6 +116,8 @@
 //     }
 .footer-contacts__title{
     margin-bottom: 20px;
+    font-family: $font2;
+    font-weight: 900;
 }
 .footer-contacts__tel{
     display: flex;

@@ -1587,6 +1587,7 @@ input[type=radio] {
   align-items: center;
   justify-content: space-around;
   color: white;
+  font-family: "TildaSansRegular";
 }
 
 .footer__wrapper {
@@ -1670,6 +1671,8 @@ input[type=radio] {
 }
 .footer-contacts__title {
   margin-bottom: 20px;
+  font-family: "TildaSansExtraBold";
+  font-weight: 900;
 }
 
 .footer-contacts__tel {
