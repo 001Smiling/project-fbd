@@ -1623,6 +1623,11 @@ input[type=radio] {
     height: 72px;
   }
 }
+@media (max-width: 575px) {
+  .type-nomination__total .type-nomination__total-gift:nth-child(1) img {
+    margin-top: 0;
+  }
+}
 @media (max-width: 550px) {
   .type-nomination {
     width: 46%;
