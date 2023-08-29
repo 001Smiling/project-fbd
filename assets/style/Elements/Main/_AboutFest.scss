@@ -417,10 +417,15 @@ ul {
 }
 @media  (max-width: 580px) {
   .main-festival{
-    height: 2541px;
+    height: 2690px;
   }
   .main-festival__why-item-text{
     width: 290px;
+  }
+  .main-festival__why-item{
+    img{
+      width: 76%;
+    }
   }
 }
 @media  (max-width: 510px) {

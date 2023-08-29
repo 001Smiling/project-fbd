@@ -591,17 +591,17 @@ a {
 }
 @media (max-width: 580px) {
   .main {
-    height: 6558px;
+    height: 6660px;
   }
 }
 @media (max-width: 550px) {
   .main {
-    height: 6550px;
+    height: 6653px;
   }
 }
 @media (max-width: 510px) {
   .main {
-    height: 6420px;
+    height: 6443px;
   }
 }
 @media (max-width: 500px) {
@@ -611,7 +611,7 @@ a {
 }
 @media (max-width: 475px) {
   .main {
-    height: 6373px;
+    height: 6399px;
   }
 }
 @media (max-width: 450px) {
@@ -943,10 +943,13 @@ ul {
 }
 @media (max-width: 580px) {
   .main-festival {
-    height: 2541px;
+    height: 2690px;
   }
   .main-festival__why-item-text {
     width: 290px;
+  }
+  .main-festival__why-item img {
+    width: 76%;
   }
 }
 @media (max-width: 510px) {
