@@ -53,6 +53,7 @@
       font-weight: 900;
     }
 }
+.footer-contacts__tel-nub,
 .footer-menu__link{
     color: white;
 }
@@ -79,7 +80,9 @@
       font-weight: 400;
       font-size: 0.8rem;
     }
-    
+      .block__text-one {
+        margin-right: 16px;
+      }
   }
 @media (min-width: 1440px) {
     .footer__container{
@@ -112,6 +115,9 @@
     text-align: center;
     margin-top: 20px;
     }
+    .block__text-one {
+        margin-right: 0;
+      }
 
 }
 // svg path {
