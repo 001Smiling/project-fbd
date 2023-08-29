@@ -1710,6 +1710,7 @@ input[type=radio] {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
 }
 
 .footer__logo {
@@ -1728,6 +1729,7 @@ input[type=radio] {
   font-weight: 900;
 }
 
+.footer-contacts__tel,
 .footer-contacts__tel-nub,
 .footer-menu__link {
   color: white;
@@ -1745,6 +1747,7 @@ input[type=radio] {
 .footer-contacts {
   display: flex;
   flex-direction: column;
+  color: white;
 }
 
 .footer__second-wrapper {
