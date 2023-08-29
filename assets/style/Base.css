@@ -1759,12 +1759,6 @@ input[type=radio] {
   font-weight: 400;
   font-size: 0.8rem;
 }
-.footer__second-wrapper .footer__secont-text {
-  display: flex;
-}
-.footer__second-wrapper .footer__secont-text .block__text-one {
-  margin-right: 16px;
-}
 
 @media (min-width: 1440px) {
   .footer__container {
