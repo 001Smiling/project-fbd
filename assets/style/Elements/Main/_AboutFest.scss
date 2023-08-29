@@ -19,6 +19,7 @@
   text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 .block-festival__text-p {
   font-family: $font3;
@@ -403,17 +404,28 @@ ul {
 }
 @media  (max-width: 700px) {
   .main-festival{
-    height: 2349px;
+    height: 2575px;
   }
 }
 @media  (max-width: 600px) {
   .main-festival{
-    height: 2340px;
+    height: 2397px;
+  }
+  .main-festival__title{
+      margin-bottom: 10px;
   }
 }
 @media  (max-width: 580px) {
+  .main-festival{
+    height: 2541px;
+  }
   .main-festival__why-item-text{
     width: 290px;
+  }
+}
+@media  (max-width: 510px) {
+  .main-festival{
+    height: 2395px;
   }
 }
 @media  (max-width: 450px) {
@@ -423,7 +435,12 @@ ul {
 }
 @media  (max-width: 400px) {
   .main-festival{
-    height: 1806px;
+    height: 2211px;
+  }
+}
+@media  (max-width: 350px) {
+  .main-festival{
+    height: 2109px;
   }
 }
 // @media  (max-width: 500px) {
