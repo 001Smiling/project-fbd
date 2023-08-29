@@ -49,6 +49,11 @@
 .main-help__button{
     width: 195px;
 }
+@media(max-width: 950px) {
+    .main-help__button{
+        width: 170px;
+    }
+}
 @media(max-width: 850px) {
     .main-help{
         height: 335px;
