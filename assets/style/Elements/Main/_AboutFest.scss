@@ -285,7 +285,7 @@ ul {
 }
 @media  (max-width: 950px) {
   .main-festival{
-    height: 2730px;
+    height: 3130px;
   }
   .main-festival__why-item{
     // width: 100%;
@@ -312,13 +312,16 @@ ul {
     flex-direction: column;
     align-items: center;
   }
+  .main-howstudy__media{
+    width: 637px;
+  }
   
-}
-@media  (max-width: 580px) {
-  .main-festival__why-item-text{
-    width: 290px;
+  .howstudy-mediastyle {
+    width: 638px; 
+    height: 348px;
   }
 }
+
 // @media  (max-width: 750px) {
 //   .main-festival__video{
 //     height: 550px;
@@ -354,6 +357,7 @@ ul {
     font-size: 24px;
   }
 }
+
 @media  (max-width: 800px) {
   .main-festival{
     height: 2579px;
@@ -367,6 +371,11 @@ ul {
 @media  (max-width: 600px) {
   .main-festival{
     height: 2109px;
+  }
+}
+@media  (max-width: 580px) {
+  .main-festival__why-item-text{
+    width: 290px;
   }
 }
 @media  (max-width: 450px) {

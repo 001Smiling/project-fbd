@@ -49,3 +49,16 @@
 .main-help__button{
     width: 195px;
 }
+@media(max-width: 850px) {
+    .main-help{
+        height: 335px;
+    }
+    .main-help__text-block{
+        text-align: center;
+        width: 100%;
+        height: 200px;
+    }
+    .main-help__img{
+        display: none;
+    }
+}

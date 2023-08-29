@@ -143,14 +143,50 @@
         font-size: 18px;
     }
 }
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
+    .type-nomination{
+        width: 29%;
+    }
     .competition-nomination__type-block .type-nomination:nth-child(2){
         margin: 0px 20px;
     }
 }
+@media (max-width: 950px) {
+    .main-competition{
+        height: 3750px;;
+    }
+    .competition-nomination__type-block{
+        height: 620px;
+    }
+    .type-nomination{
+        height: 275px;
+    }
+    .competition-nomination__type-block .type-nomination:nth-child(2){
+        margin: 0px 20px;
+    }
+    .type-nomination__total .type-nomination__total-gift:nth-child(1){
+        img{
+            margin-top: 25px;
+            width: 46%;
+        }
+    }
+    .type-nomination__total .type-nomination__total-gift:nth-child(2){
+        img{
+            width: 38%;
+        }
+    }
+    // .competition-nomination__type-block .type-nomination:nth-child(4){
+    //     .type-nomination__img-block{
+    //         width: 75%;
+    //     }
+    //     .type-nomination__text-block{
+    //         height: 25px;
+    //     }
+    // }
+}
 @media (max-width: 900px) {
     .main-competition{
-        height: 1360px;
+        height: 1587px;
     }
     .competition-rules{
         flex-direction: column;
