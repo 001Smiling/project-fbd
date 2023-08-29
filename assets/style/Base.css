@@ -1189,6 +1189,7 @@ input[type=radio] {
   }
   .main-progress__text {
     text-align: center;
+    margin-bottom: 20px;
   }
   .main-progress__img-block {
     display: none;
