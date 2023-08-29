@@ -556,17 +556,17 @@ a {
 }
 @media (max-width: 900px) {
   .main {
-    height: 7200px;
+    height: 7053px;
   }
 }
 @media (max-width: 850px) {
   .main {
-    height: 7035px;
+    height: 6771px;
   }
 }
 @media (max-width: 800px) {
   .main {
-    height: 6680px;
+    height: 6699px;
   }
 }
 @media (max-width: 750px) {
@@ -576,7 +576,7 @@ a {
 }
 @media (max-width: 700px) {
   .main {
-    height: 6380px;
+    height: 6352px;
   }
 }
 @media (max-width: 600px) {
@@ -897,9 +897,19 @@ ul {
     height: 348px;
   }
 }
+@media (max-width: 900px) {
+  .main-festival {
+    height: 2900px;
+  }
+}
+@media (max-width: 850px) {
+  .main-festival {
+    height: 2750px;
+  }
+}
 @media (max-width: 800px) {
   .main-festival {
-    height: 2579px;
+    height: 2650px;
   }
 }
 @media (max-width: 700px) {

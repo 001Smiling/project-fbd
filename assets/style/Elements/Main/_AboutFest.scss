@@ -386,9 +386,19 @@ ul {
     height: 348px;
   }
 }
+@media  (max-width: 900px) {
+  .main-festival{
+    height: 2900px;
+  }
+}
+@media  (max-width: 850px) {
+  .main-festival{
+    height: 2750px;
+  }
+}
 @media  (max-width: 800px) {
   .main-festival{
-    height: 2579px;
+    height: 2650px;
   }
 }
 @media  (max-width: 700px) {
