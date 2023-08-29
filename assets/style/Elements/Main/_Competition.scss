@@ -13,6 +13,9 @@
     align-items: center;
     justify-content: space-evenly;
 }
+.main-competition__title{
+    display: flex;
+}
 .main-competition__text {
     text-align: center;
 }
@@ -229,6 +232,14 @@
     }
     .competition-rules__rule-block{
         height: 78px;
+    }
+}
+@media (max-width: 750px) {
+    .main-competition__title{
+        flex-direction: column;
+    }
+    .main-competition__gap{
+        display: none;
     }
 }
 @media (max-width: 725px) {
