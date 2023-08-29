@@ -6,8 +6,68 @@
   justify-content: flex-end;
 }
 
+@media (max-width: 950px) {
+  .main {
+    height: 7550px;
+  }
+}
 @media (max-width: 900px) {
   .main {
-    height: 10587px;
+    height: 7200px;
+  }
+}
+@media (max-width: 850px) {
+  .main {
+    height: 7035px;
+  }
+}
+@media (max-width: 800px) {
+  .main {
+    height: 6680px;
+  }
+}
+@media (max-width: 750px) {
+  .main {
+    height: 6526px;
+  }
+}
+@media (max-width: 700px) {
+  .main {
+    height: 6380px;
+  }
+}
+@media (max-width: 600px) {
+  .main {
+    height: 6335px;
+  }
+}
+@media (max-width: 580px) {
+  .main {
+    height: 6392px;
+  }
+}
+@media (max-width: 520px) {
+  .main {
+    height: 6300px;
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    height: 6400px;
+  }
+}
+@media (max-width: 450px) {
+  .main {
+    height: 6345px;
+  }
+}
+@media (max-width: 400px) {
+  .main {
+    height: 6035px;
+  }
+}
+@media (max-width: 350px) {
+  .main {
+    height: 6000px;
   }
 }/*# sourceMappingURL=Main.css.map */

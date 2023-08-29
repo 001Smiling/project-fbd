@@ -41,7 +41,7 @@
     justify-content: space-between;
 }
 .main-help__text-p{
-    font-size: 22px;
+    @include adaptiv-font(22, 16);
 }
 .main-help__img{
     width: 42%;
@@ -60,5 +60,10 @@
     }
     .main-help__img{
         display: none;
+    }
+}
+@media(max-width: 470px) {
+    .main-help__button{
+        width: 38vw;
     }
 }

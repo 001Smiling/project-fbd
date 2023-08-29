@@ -73,7 +73,7 @@
 .type-nomination__text-block{
     text-align: center;
     font-family: $font2;
-    @include adaptiv-font(18, 16);
+    @include adaptiv-font(18, 14);
 }
 .competition-nomination__type-block .type-nomination:nth-child(1),
 .competition-nomination__type-block .type-nomination:nth-child(3){
@@ -86,12 +86,17 @@
         width: 67%;
     }
     .type-nomination__text-block{
-        height: 54px;
+        display: flex;
+        align-items: center;
+        height: 72px;
     }
 }
 .competition-nomination__type-block .type-nomination:nth-child(3){
     .type-nomination__text-block{
-        height: 74px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 72px;
     }
 }
 .competition-nomination__type-block .type-nomination:nth-child(4){
@@ -153,10 +158,10 @@
 }
 @media (max-width: 950px) {
     .main-competition{
-        height: 3750px;;
+        height: 1900px;;
     }
     .competition-nomination__type-block{
-        height: 620px;
+        height: 587px;
     }
     .type-nomination{
         height: 275px;
@@ -218,24 +223,47 @@
         margin: 0;
     }
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
+    .type-nomination{
+        height: 240px;
+    }
     .competition-rules__rule-block{
         height: 78px;
     }
 }
 @media (max-width: 725px) {
+    .competition-nomination__type-block{
+        height: 808px;
+    }
     .type-nomination{
-        width: 40%;
+        width: 228px;
+        height: 256px;
+    }
+    .competition-nomination__type-block .type-nomination:nth-child(4){
+        .type-nomination__img-block{
+            width: 76%;
+        }
+        .type-nomination__text-block{
+            display: flex;
+            align-items: center;
+            height: 72px;
+        }
+    }
+}
+@media (max-width: 550px) {
+    .type-nomination{
+        width: 46%;
     }
 }
 @media (max-width: 500px) {
     .main-competition{
-        height: 1158px;
+        height: 1700px;
     }
     .competition-nomination__type-block{
-        height: 500px;
+        height: 717px;
     }
     .type-nomination{
+        width: 45%;
         height: 223px;
     }
 }
