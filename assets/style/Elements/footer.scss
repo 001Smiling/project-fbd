@@ -39,6 +39,8 @@
     justify-content: space-between;
     align-items: center;
     color: white;
+    -webkit-text-fill-color: white;
+    -webkit-opacity: 1; 
 }
 .footer__logo{
     width: 100px;
@@ -54,8 +56,6 @@
       font-weight: 900;
     }
 }
-.footer-contacts__tel,
-.footer-contacts__tel-nub,
 .footer-menu__link{
     color: white;
 }
@@ -68,7 +68,6 @@
 .footer-contacts{
     display: flex;
     flex-direction: column;
-    color: white;
 }
 .footer__second-wrapper {
     width: 100%;

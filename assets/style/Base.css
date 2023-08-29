@@ -1711,6 +1711,8 @@ input[type=radio] {
   justify-content: space-between;
   align-items: center;
   color: white;
+  -webkit-text-fill-color: white;
+  -webkit-opacity: 1;
 }
 
 .footer__logo {
@@ -1729,8 +1731,6 @@ input[type=radio] {
   font-weight: 900;
 }
 
-.footer-contacts__tel,
-.footer-contacts__tel-nub,
 .footer-menu__link {
   color: white;
 }
@@ -1747,7 +1747,6 @@ input[type=radio] {
 .footer-contacts {
   display: flex;
   flex-direction: column;
-  color: white;
 }
 
 .footer__second-wrapper {
