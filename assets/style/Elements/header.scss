@@ -378,7 +378,7 @@ $maxWidth: 1440;
       &__link {
           text-decoration: none;
           font-size: 25px;
-          &:hover {
+          &:hover :active {
               color: rgba(246, 75, 53, 1);
               transition: .2s;
           }
