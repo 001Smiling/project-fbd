@@ -365,7 +365,7 @@ $maxWidth: 1440;
           flex-direction: column;
           justify-content: flex-start;
           margin: 0 10%;
-          padding-top: 23%;
+          padding-top: 15%;
           width: 100%;
       }
       &__item {
@@ -447,6 +447,10 @@ $maxWidth: 1440;
 //       top: 20px;
 //       // top: 0%;
 //   }
+.header-menu {
+    &__list {
+        padding-top: 20%;
+    }}
     .header__btn{
       width: 20vw;
     }
@@ -465,9 +469,24 @@ $maxWidth: 1440;
 //     top: 55px;
 //     // top: 0%;
 // }
+.header-menu {
+    &__list {
+        padding-top: 23%;
+    }}
   .header__btn{
     width: 20vw;
   }
 }
-
+@media(max-width: 425px) {
+.header-menu {
+    &__list {
+        padding-top: 25%;
+    }}
+}
+@media(max-width: 375px) {
+    .header-menu {
+        &__list {
+            padding-top: 28%;
+        }}
+    }
 ////////////////////////////////////////////////////////////////////////////
