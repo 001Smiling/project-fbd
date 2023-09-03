@@ -261,6 +261,19 @@
   #slider{
     height: 329px;
   }
+  #slider label{
+    left: 23%;
+    width: 53%;
+  }
+  /* Next to Next Slide */
+  #s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
+    transform: translate3d(67%,0,-200px) rotateY(-45deg);
+  }
+  
+  /* Previous to Previous Slide */
+  #s1:checked ~ #slide4, #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
+    transform: translate3d(-67%,0,-200px) rotateY(45deg);
+  }
   .progress-card{
     width: 90%;
   }
