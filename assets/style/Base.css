@@ -176,7 +176,7 @@
     width: 95vw;
   }
   .header-menu__list {
-    padding-top: 23%;
+    padding-top: 25%;
   }
   .header__btn {
     width: 20vw;
@@ -184,7 +184,7 @@
 }
 @media (max-width: 425px) {
   .header-menu__list {
-    padding-top: 25%;
+    padding-top: 29%;
   }
 }
 @media (max-width: 375px) {
@@ -540,7 +540,7 @@ a {
     width: 95vw;
   }
   .header-menu__list {
-    padding-top: 23%;
+    padding-top: 25%;
   }
   .header__btn {
     width: 20vw;
@@ -548,7 +548,7 @@ a {
 }
 @media (max-width: 425px) {
   .header-menu__list {
-    padding-top: 25%;
+    padding-top: 29%;
   }
 }
 @media (max-width: 375px) {
