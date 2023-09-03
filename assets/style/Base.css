@@ -1249,6 +1249,7 @@ input[type=radio] {
   #slider label {
     left: 23%;
     width: 53%;
+    border-radius: 40px;
   }
   /* Next to Next Slide */
   #s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
@@ -1264,9 +1265,36 @@ input[type=radio] {
   .progress-card__img-block {
     height: 81px;
   }
+  .progress-btn__small,
+  .progress-card__btn {
+    height: 27px;
+  }
   .progress-btn__small {
     width: 20vw;
-    height: 27px;
+  }
+}
+@media (max-width: 400px) {
+  #slider label {
+    left: 22%;
+    width: 55%;
+  }
+  #s1:checked ~ #slide2, #s2:checked ~ #slide3, #s3:checked ~ #slide4, #s4:checked ~ #slide5, #s5:checked ~ #slide1 {
+    transform: translate3d(36%, 0, -100px) rotateY(-45deg);
+  }
+  /* Next to Next Slide */
+  #s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
+    transform: translate3d(62%, 0, -200px) rotateY(-45deg);
+  }
+  /* Previous to Previous Slide */
+  #s1:checked ~ #slide4, #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
+    transform: translate3d(-62%, 0, -200px) rotateY(45deg);
+  }
+  /* Previous Slide */
+  #s1:checked ~ #slide5, #s2:checked ~ #slide1, #s3:checked ~ #slide2, #s4:checked ~ #slide3, #s5:checked ~ #slide4 {
+    transform: translate3d(-36%, 0, -100px) rotateY(45deg);
+  }
+  .progress-btn__small {
+    width: 22vw;
   }
 }
 .main-partners {
