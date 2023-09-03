@@ -365,7 +365,7 @@ $maxWidth: 1440;
           flex-direction: column;
           justify-content: flex-start;
           margin: 0 10%;
-          padding-top: 15%;
+          padding-top: 23%;
           width: 100%;
       }
       &__item {
@@ -420,7 +420,7 @@ $maxWidth: 1440;
       transition: .3s;
   }
   .open {
-      top: 6px;
+      top: 0px;
       // top: 0%;
   }
   .hamb__field.active .bar:nth-child(2) {
@@ -443,28 +443,28 @@ $maxWidth: 1440;
     .header-container{ 
       width: 95vw;
   }
-  .open {
-      top: 20px;
-      // top: 0%;
-  }
+//   .open {
+//       top: 20px;
+//       // top: 0%;
+//   }
     .header__btn{
       width: 20vw;
     }
 }
-@media(max-width: 550px) {
-  .open {
-      top: 40px;
-      // top: 0%;
-  }
-}
+// @media(max-width: 550px) {
+//   .open {
+//       top: 40px;
+//       // top: 0%;
+//   }
+// }
 @media(max-width: 500px) {
   .header-container{ 
     width: 95vw;
 }
-.open {
-    top: 55px;
-    // top: 0%;
-}
+// .open {
+//     top: 55px;
+//     // top: 0%;
+// }
   .header__btn{
     width: 20vw;
   }
