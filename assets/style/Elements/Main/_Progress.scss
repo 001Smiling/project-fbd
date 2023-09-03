@@ -77,7 +77,6 @@
     align-items: center;
     justify-content: center;
     transition: transform 400ms ease;
-    z-index: -1;
   }
   .progress-card{
     display: flex;
@@ -230,23 +229,23 @@
     width: 50%;
   }
   #s1:checked ~ #slide2, #s2:checked ~ #slide3, #s3:checked ~ #slide4, #s4:checked ~ #slide5, #s5:checked ~ #slide1 {
-    transform: translate3d(34%,0,-100px) rotateY(-45deg);
+    transform: translate3d(40%,0,-100px) rotateY(-45deg);
   }
   
   
   /* Next to Next Slide */
   #s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
-    transform: translate3d(63%,0,-200px) rotateY(-45deg);
+    transform: translate3d(70%,0,-200px) rotateY(-45deg);
   }
   
   /* Previous to Previous Slide */
   #s1:checked ~ #slide4, #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
-    transform: translate3d(-63%,0,-200px) rotateY(45deg);
+    transform: translate3d(-70%,0,-200px) rotateY(45deg);
   }
   
   /* Previous Slide */
   #s1:checked ~ #slide5, #s2:checked ~ #slide1, #s3:checked ~ #slide2, #s4:checked ~ #slide3, #s5:checked ~ #slide4 {
-    transform: translate3d(-34%,0,-100px) rotateY(45deg);
+    transform: translate3d(-40%,0,-100px) rotateY(45deg);
   }
 }
 @media (max-width: 640px){
@@ -270,5 +269,6 @@
   }
   .progress-btn__small{
     width: 20vw;
+    height: 27px;
   }
 }
