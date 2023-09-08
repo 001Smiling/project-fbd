@@ -445,6 +445,12 @@ ul {
   .main-festival{
     height: 2388px;
   }
+  .main-festival__logo{
+    width: 35%;
+    &:first-child{
+      width: 23%;
+    }
+  }
   // .main-festival__why-item{
   //   img{
   //     width: 92%;

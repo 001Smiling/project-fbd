@@ -240,3 +240,20 @@
         height: 83px;
     }
 }
+@media (max-width: 600px) {
+    .partners-slider{ 
+        border-radius: 3.6875rem;
+    }
+    .partners-slider__scroll{
+        height: 234px;
+        border-radius: 21%;
+    }
+    .partners-slider__shadow {
+        height: 206px;
+    }
+}
+@media (max-width: 450px) {
+    .main-partners{
+        height: 460px;
+    }
+}

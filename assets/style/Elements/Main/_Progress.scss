@@ -224,6 +224,9 @@
   }
 }
 @media (max-width: 650px){
+  #slider {
+    height: 330px;
+  }
   #slider label{
     left: 27%;
     width: 50%;
@@ -259,7 +262,7 @@
 }
 @media (max-width: 450px){
   #slider{
-    height: 329px;
+    height: 282px;
   }
   #slider label{
     left: 23%;

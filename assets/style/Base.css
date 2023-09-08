@@ -313,7 +313,7 @@ a {
 .title-h2 {
   color: #000;
   font-family: "TildaSansBold";
-  font-size: calc(22px + 18 * ((100vw - 320px) / 1120));
+  font-size: calc(24px + 16 * ((100vw - 320px) / 1120));
   line-height: 165%;
   text-align: center;
 }
@@ -987,6 +987,12 @@ ul {
   .main-festival {
     height: 2388px;
   }
+  .main-festival__logo {
+    width: 35%;
+  }
+  .main-festival__logo:first-child {
+    width: 23%;
+  }
 }
 @media (max-width: 400px) {
   .main-festival {
@@ -1233,6 +1239,9 @@ input[type=radio] {
   }
 }
 @media (max-width: 650px) {
+  #slider {
+    height: 330px;
+  }
   #slider label {
     left: 27%;
     width: 50%;
@@ -1263,7 +1272,7 @@ input[type=radio] {
 }
 @media (max-width: 450px) {
   #slider {
-    height: 329px;
+    height: 282px;
   }
   #slider label {
     left: 23%;
@@ -1460,6 +1469,23 @@ input[type=radio] {
     height: 83px;
   }
 }
+@media (max-width: 600px) {
+  .partners-slider {
+    border-radius: 3.6875rem;
+  }
+  .partners-slider__scroll {
+    height: 234px;
+    border-radius: 21%;
+  }
+  .partners-slider__shadow {
+    height: 206px;
+  }
+}
+@media (max-width: 450px) {
+  .main-partners {
+    height: 460px;
+  }
+}
 .main-competition {
   height: 1950px;
   display: flex;
@@ -1495,7 +1521,7 @@ input[type=radio] {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 43%;
+  width: 44%;
   height: 150px;
 }
 
@@ -1545,7 +1571,7 @@ input[type=radio] {
 .type-nomination__text-block {
   text-align: center;
   font-family: "TildaSansExtraBold";
-  font-size: calc(14px + 4 * ((100vw - 320px) / 1120));
+  font-size: calc(13px + 5 * ((100vw - 320px) / 1120));
 }
 
 .competition-nomination__type-block .type-nomination:nth-child(1) .type-nomination__img-block,
@@ -1659,7 +1685,8 @@ input[type=radio] {
     width: 100%;
   }
   .competition-rules .competition-rules__rule-block:nth-child(1) .competition-rules__img-block {
-    width: 19%;
+    width: 18%;
+    margin-right: 10px;
   }
   .competition-rules .competition-rules__rule-block:nth-child(1) .competition-rules__text-block {
     width: 100%;
@@ -1673,6 +1700,7 @@ input[type=radio] {
   }
   .competition-rules .competition-rules__rule-block:nth-child(2) .competition-rules__img-block {
     width: 10%;
+    margin-left: 10px;
   }
   .competition-nomination__type-block .type-nomination:nth-child(2) {
     margin: 0;
@@ -1683,7 +1711,7 @@ input[type=radio] {
     height: 240px;
   }
   .competition-rules__rule-block {
-    height: 78px;
+    height: 92px;
   }
 }
 @media (max-width: 750px) {
@@ -1704,6 +1732,12 @@ input[type=radio] {
   .type-nomination {
     width: 228px;
     height: 256px;
+  }
+  .competition-rules .competition-rules__rule-block:nth-child(1) {
+    justify-content: flex-start;
+  }
+  .competition-rules .competition-rules__rule-block:nth-child(1) .competition-rules__text-block {
+    width: 40%;
   }
   .competition-nomination__type-block .type-nomination:nth-child(4) .type-nomination__img-block {
     width: 76%;
@@ -1734,6 +1768,30 @@ input[type=radio] {
   .type-nomination {
     width: 45%;
     height: 223px;
+  }
+}
+@media (max-width: 430px) {
+  .competition-rules .competition-rules__rule-block:nth-child(1) .competition-rules__text-block {
+    width: 58%;
+  }
+  .competition-rules .competition-rules__rule-block:nth-child(1) .competition-rules__img-block {
+    width: 21%;
+  }
+  .competition-rules .competition-rules__rule-block:nth-child(2) .competition-rules__img-block {
+    width: 12%;
+  }
+  .competition-nomination__type-block .type-nomination:nth-child(1) .type-nomination__img-block,
+  .competition-nomination__type-block .type-nomination:nth-child(3) .type-nomination__img-block {
+    width: 84%;
+  }
+  .competition-nomination__type-block .type-nomination:nth-child(2) .type-nomination__img-block {
+    width: 75%;
+  }
+  .competition-nomination__type-block .type-nomination:nth-child(4) .type-nomination__img-block {
+    width: 88%;
+  }
+  .competition-nomination__type-block .type-nomination:nth-child(5) .type-nomination__img-block {
+    width: 53%;
   }
 }
 .main-gallery {

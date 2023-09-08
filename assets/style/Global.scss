@@ -136,7 +136,7 @@ a{
 .title-h2 {
   color: $header;
   font-family: $font;
-  @include adaptiv-font(40, 22);
+  @include adaptiv-font(40, 24);
   line-height: 165%;
   text-align: center;
 }
