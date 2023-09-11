@@ -1167,25 +1167,21 @@ input[type=radio] {
   transform: translate3d(0, 0, 0);
 }
 
-/* Next Slide */
 #s1:checked ~ #slide2, #s2:checked ~ #slide3, #s3:checked ~ #slide4, #s4:checked ~ #slide5, #s5:checked ~ #slide1 {
   box-shadow: 6px 1px 70px -14px rgba(0, 0, 0, 0.75);
   transform: translate3d(65%, 0, -100px) rotateY(-45deg);
 }
 
-/* Next to Next Slide */
 #s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
   box-shadow: 6px 1px 70px -14px rgba(0, 0, 0, 0.75);
   transform: translate3d(120%, 0, -200px) rotateY(-45deg);
 }
 
-/* Previous to Previous Slide */
 #s1:checked ~ #slide4, #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
   box-shadow: -6px 1px 70px -14px rgba(0, 0, 0, 0.75);
   transform: translate3d(-120%, 0, -200px) rotateY(45deg);
 }
 
-/* Previous Slide */
 #s1:checked ~ #slide5, #s2:checked ~ #slide1, #s3:checked ~ #slide2, #s4:checked ~ #slide3, #s5:checked ~ #slide4 {
   box-shadow: -6px 1px 70px -14px rgba(0, 0, 0, 0.75);
   transform: translate3d(-65%, 0, -100px) rotateY(45deg);
@@ -1212,19 +1208,15 @@ input[type=radio] {
     left: 27%;
     width: 270px;
   }
-  /* Next Slide */
   #s1:checked ~ #slide2, #s2:checked ~ #slide3, #s3:checked ~ #slide4, #s4:checked ~ #slide5, #s5:checked ~ #slide1 {
     transform: translate3d(45%, 0, -100px) rotateY(-45deg);
   }
-  /* Next to Next Slide */
   #s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
     transform: translate3d(83%, 0, -200px) rotateY(-45deg);
   }
-  /* Previous to Previous Slide */
   #s1:checked ~ #slide4, #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
     transform: translate3d(-83%, 0, -200px) rotateY(45deg);
   }
-  /* Previous Slide */
   #s1:checked ~ #slide5, #s2:checked ~ #slide1, #s3:checked ~ #slide2, #s4:checked ~ #slide3, #s5:checked ~ #slide4 {
     transform: translate3d(-45%, 0, -100px) rotateY(45deg);
   }
@@ -1259,15 +1251,12 @@ input[type=radio] {
   #s1:checked ~ #slide2, #s2:checked ~ #slide3, #s3:checked ~ #slide4, #s4:checked ~ #slide5, #s5:checked ~ #slide1 {
     transform: translate3d(40%, 0, -100px) rotateY(-45deg);
   }
-  /* Next to Next Slide */
   #s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
     transform: translate3d(70%, 0, -200px) rotateY(-45deg);
   }
-  /* Previous to Previous Slide */
   #s1:checked ~ #slide4, #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
     transform: translate3d(-70%, 0, -200px) rotateY(45deg);
   }
-  /* Previous Slide */
   #s1:checked ~ #slide5, #s2:checked ~ #slide1, #s3:checked ~ #slide2, #s4:checked ~ #slide3, #s5:checked ~ #slide4 {
     transform: translate3d(-40%, 0, -100px) rotateY(45deg);
   }
@@ -1289,11 +1278,9 @@ input[type=radio] {
     width: 53%;
     border-radius: 40px;
   }
-  /* Next to Next Slide */
   #s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
     transform: translate3d(67%, 0, -200px) rotateY(-45deg);
   }
-  /* Previous to Previous Slide */
   #s1:checked ~ #slide4, #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
     transform: translate3d(-67%, 0, -200px) rotateY(45deg);
   }
@@ -1319,15 +1306,12 @@ input[type=radio] {
   #s1:checked ~ #slide2, #s2:checked ~ #slide3, #s3:checked ~ #slide4, #s4:checked ~ #slide5, #s5:checked ~ #slide1 {
     transform: translate3d(36%, 0, -100px) rotateY(-45deg);
   }
-  /* Next to Next Slide */
   #s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
     transform: translate3d(62%, 0, -200px) rotateY(-45deg);
   }
-  /* Previous to Previous Slide */
   #s1:checked ~ #slide4, #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
     transform: translate3d(-62%, 0, -200px) rotateY(45deg);
   }
-  /* Previous Slide */
   #s1:checked ~ #slide5, #s2:checked ~ #slide1, #s3:checked ~ #slide2, #s4:checked ~ #slide3, #s5:checked ~ #slide4 {
     transform: translate3d(-36%, 0, -100px) rotateY(45deg);
   }

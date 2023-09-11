@@ -5,24 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    // position: relative;
 }
-// .main-help__image2{
-//     position: absolute;
-//     top: 43px;
-//     left: 160px;
-//     width: 44%;
-// }
-// .text-cv{
-//     text-align: center;
-//     width: 17%;
-//     top: 271px;
-//     left: 405px;
-//     color: black;
-//     position: absolute;
-//     font-weight: 900;
-//     font-size: 40px;
-// }
 .footer__container{
     width: 87vw;
     display: flex;
@@ -103,9 +86,6 @@
     .footer__wrapper{
         height: 283px;
         flex-direction: column;
-        // display: flex;
-        // justify-content: space-between;
-        // align-items: center;
     }
     .footer-contacts{
         align-items: center;
@@ -122,16 +102,6 @@
       }
 
 }
-// svg path {
-//     fill:white;
-//     stroke:inherit;
-//     stroke-width:inherit;
-    
-//     }
-    
-//     .icon-youtube{
-//     transition: all .8s ease;
-//     }
 .footer-contacts__title{
     margin-bottom: 20px;
     font-family: $font2;
