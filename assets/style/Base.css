@@ -1460,7 +1460,7 @@ input[type=radio] {
     margin: 0 10px;
   }
   .partners-slider__buttons {
-    height: 83px;
+    height: 35px;
   }
 }
 @media (max-width: 600px) {
