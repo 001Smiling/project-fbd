@@ -111,7 +111,7 @@ a{
     box-shadow: -6px -6px 9px 0px white, 6px 4px 9px rgba(0, 0, 0, 0.4);
   }
 }
-@media(max-width: 450px) {
+@media(max-width: 600px) {
   .buttons{
     height: 32px;
   }
@@ -122,9 +122,9 @@ a{
 }
 .block-buttons{
   width: 100%;
-  height: 110px;
+  height: 70px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-around;
 }
 .animation-botton{
